@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Admission</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Admission Form</h1>
+        <form id="admissionForm" action="#" method="post">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required><br>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required pattern="[0-9]{10}"><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <label for="secondarySchool">Secondary School:</label>
+            <input type="text" id="secondarySchool" name="secondarySchool" required><br>
+
+            <label for="aggregates">Aggregates:</label>
+            <input type="number" id="aggregates" name="aggregates" required><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="loginForm" action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
